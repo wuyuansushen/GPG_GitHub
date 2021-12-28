@@ -2,11 +2,11 @@
 
 ### 0. Prerequisite
 
-Run the commands below in `Git Bash` if you are using Windows operation system.
+Run the commands below in **Git Bash** if you are using Windows operation system.
 
 ### 1. Enabling vigilant mode
 
-`Settings` -> `SSH and GPG keys` -> (Vigilant mode) `Flag unsigned commits as unverified`
+**Settings** -> **SSH and GPG keys** ->(Vigilant mode) **Flag unsigned commits as unverified**
 
 ### 2. Existing GPG keys
 
