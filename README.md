@@ -1,12 +1,15 @@
 # GPG_GitHub
-
 ### 0. Prerequisite
 
-Run the commands below in **Git Bash** if you are using Windows operation system.
+Run the commands below in ***Git Bash*** if you are using Windows operation system.
+
+***
 
 ### 1. Enabling vigilant mode
 
 **Settings** -> **SSH and GPG keys** ->(Vigilant mode) **Flag unsigned commits as unverified**
+
+***
 
 ### 2. Existing GPG keys
 
@@ -19,6 +22,8 @@ Output:
 sec   rsa4096/[secKeyID]
 ```
 
+***
+
 ### 3. Generating a GPG key
 
 ```(bash)
@@ -30,13 +35,19 @@ gpg --full-generate-key
 > 3. Key's `Email address` must be your GitHub-provided `no-reply` email address which is based on `@users.noreply.github.com` suffix.
 > 4. Key's `Passphrase` could be empty.
 
+***
+
 ### 4.Exporting `sec` key
 
 ```(bash)
 gpg --armor --export [secKeyID]
 ```
 
+***
+
 ### 5. Copy exported ASCII GPG key into GitHub settings
+
+***
 
 ### 6. Git settings
 
@@ -59,6 +70,8 @@ Unset
 ```
 git config --global --unset [gitConfigOption]
 ```
+
+***
 
 ### 7.Migrate GPG Keys to other device
 
