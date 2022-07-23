@@ -60,11 +60,11 @@ git config --global -l
 Set
 
 ```(bash)
-git config --global --add user.name [GitHubAccountUsername]
-git config --global --add user.email [GitHubNoReplyEmail]
-git config --global --add user.signingkey [secKeyID]
-git config --global --add commit.gpgsign true
-git config --global --add http.proxy http://[IP | domain]:[port]/
+git config --global user.name [GitHubAccountUsername]
+git config --global user.email [GitHubNoReplyEmail]
+git config --global user.signingkey [secKeyID]
+git config --global commit.gpgsign true
+git config --global http.proxy http://[IP | domain]:[port]/
 ```
 
 Unset
